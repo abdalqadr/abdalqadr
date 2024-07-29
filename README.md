@@ -3,7 +3,7 @@
 
 **〔 A〕**
 
-#**By:** https://t.me/A
+#**By:** github.com/abdalqadr
 
 <!--
 **abdalqadr/abdalqadr** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
