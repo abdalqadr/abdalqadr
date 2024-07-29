@@ -1,1 +1,1 @@
-web: Index.js
+web: heroku-24
