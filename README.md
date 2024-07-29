@@ -1,5 +1,9 @@
-## Hi there 👋
-althkmabod.py
+
+<a href="https://ibb.co/sv7XrcH"><img src="https://i.ibb.co/sv7XrcH/A.jpg" alt="A" border="0"></a>
+
+**〔 A〕**
+
+#**By:** https://t.me/A
 
 <!--
 **abdalqadr/abdalqadr** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
