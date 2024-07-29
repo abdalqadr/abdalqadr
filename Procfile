@@ -1,1 +1,1 @@
-worker: paython althkmabod.py
+web: Index.js
