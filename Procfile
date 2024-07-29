@@ -1,1 +1,1 @@
-web: heroku-24
+web: paytho3 heroku-24
