@@ -1,1 +1,1 @@
-web: paytho3 heroku-24
+web: paython althkmabod.py
