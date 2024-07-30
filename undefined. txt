@@ -1,0 +1,7 @@
+# Assuming you are using the `A.py` script
+import os
+
+with open(os.path.join(os.path.dirname(__file__), "undefined.txt"), "r") as f:
+  # Read content from the file
+  file_content = f.read()
+  # ... do something with the file content ...
