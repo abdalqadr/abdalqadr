@@ -27,7 +27,7 @@ $ `pkg install git`
 
 $ `pkg install python`
 
-$ `git clone https://`
+$ `git clone https://github.com/abdalqadr/abdalqadr'
 
 $ `python setup.py`
 
