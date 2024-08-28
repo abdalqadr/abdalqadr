@@ -21,5 +21,5 @@ async def itachi(event):
             result += char
         else:
             result += a
-    await event.edit(result)
+    await event.edit(result) 
     
