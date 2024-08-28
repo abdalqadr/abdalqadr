@@ -8,7 +8,7 @@ from telethon.tl.functions.channels import JoinChannelRequest, InviteToChannelRe
 #Developer: @ar_aaa
 
 #Modules
-client = phoenix.client.client
+client = A.client.client
 client.add_event_handler(A.help.help)
 client.add_event_handler(A.help.hi)
 client.add_event_handler(A.ahelp.ahelp)
