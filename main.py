@@ -1,11 +1,11 @@
-import phoenix.client, phoenix.kick, phoenix.ketdim, phoenix.uzbrun, phoenix.whyrun, phoenix.iloveyou, phoenix.goodnight, phoenix.ahelp, phoenix.konspekt, phoenix.lovelyrun, phoenix.bombs, phoenix.help, phoenix.loading, phoenix.emoji, phoenix.dump, phoenix.sexy, phoenix.type, phoenix.magicrun, phoenix.animation, phoenix.animation2, phoenix.mute, phoenix.fuck, phoenix.rev, phoenix.tr, phoenix.userinfo, phoenix.base64, phoenix.react, phoenix.snow, phoenix.smsbomb, phoenix.rename, phoenix.iptrace, phoenix.spam, phoenix.alive, phoenix.tagall, phoenix.afk, phoenix.timer, phoenix.ping
-import phoenix.allanimations as allanim 
+import A.client, A.kick, A.ketdim, A.uzbrun, A.whyrun, A.iloveyou, A.goodnight, A.ahelp, A.konspekt, A.lovelyrun, A.bombs, A.help, A.loading, A.emoji, A.dump, A.sexy, A.type, A.magicrun, A.animation, A.animation2, A.mute, A.fuck, A.rev, A.tr, A.userinfo, A.base64, A.react, A.snow, A.smsbomb, A.rename, A.iptrace, A.spam, A.alive, A.tagall, A.afk, A.timer, A.ping
+import A.allanimations as allanim 
 import os
-from phoenix import spam
+from A import spam
 from telethon import events
 from telethon.tl.functions.channels import JoinChannelRequest, InviteToChannelRequest
 
-#Developer: @I0I0II
+#Developer: @ar_aaa
 
 #Modules
 client = phoenix.client.client
