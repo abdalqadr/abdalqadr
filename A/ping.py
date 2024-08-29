@@ -1,8 +1,8 @@
 from telethon import events
-import phoenix.client
+import A.client
 from datetime import datetime
 
-client = phoenix.client.client
+client = A.client.client
 
 
 @events.register(events.NewMessage(pattern='\.بنك'))
