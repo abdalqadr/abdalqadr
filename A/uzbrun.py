@@ -1,8 +1,8 @@
 uzb = ["▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓\n▓▓ 🇺 🇿 🇧  🇸 🇮 🇱 🇦 ▓▓\n▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓",
 from telethon import events
-import phoenix.client
+import A.client
 import time
-client = phoenix.client.client
+client = A.client.client
 
 uzb = ["▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓\n▓▓ 🇺 🇿 🇧  🇸 🇮 🇱 🇦 ▓▓\n▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓",
 "▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓\n▓▓ 🇿 🇧  🇸 🇮 🇱 🇦 ▓▓▓▓\n▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓",
