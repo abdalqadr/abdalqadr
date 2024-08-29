@@ -1,7 +1,7 @@
 async def help(event):
 from telethon import events
-import phoenix.client
-client = phoenix.client.client
+import A.client
+client = A.client.client
 @events.register(events.NewMessage(outgoing=True, pattern=".الاوامر"))
 async def help(event):
         await event.delete()
