@@ -2,9 +2,9 @@ import asyncio
 from telethon import events
 from telethon.tl.functions.account import UpdateProfileRequest
 from datetime import datetime
-import phoenix
+import A
 
-client = phoenix.client.client
+client = A.client.client
 
 async def update_name_periodically(event):
     user_name = event.pattern_match.group(1)
