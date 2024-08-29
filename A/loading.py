@@ -2,8 +2,8 @@ from telethon import events
 import time
 import asyncio
 import random
-import phoenix.client
-client = phoenix.client.client
+import A.client
+client = A.client.client
 @events.register(events.NewMessage(pattern='.تحميل', outgoing=True))
 async def loading(event: events.NewMessage.Event):
     try:
