@@ -5,7 +5,7 @@ from telethon import events
 import time
 import random
 import A.client
-client = phoenix.client.client
+client = A.client.client
 
 M = ("___________ \n"
 "　　　　　| \n"
