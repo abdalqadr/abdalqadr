@@ -1,6 +1,6 @@
 from telethon import events
-import phoenix.client
-client = phoenix.client.client
+import A.client
+client = A.client.client
 
 @events.register(events.NewMessage(pattern=".احم"))
 async def fuck(event):
