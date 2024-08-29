@@ -1,7 +1,7 @@
 from telethon import events 
-import phoenix.client
-from phoenix import emojify
-client = phoenix.client.client
+import A.client
+from A import emojify
+client = A.client.client
 
 
 @events.register(events.NewMessage(pattern=".ايموجي"))
