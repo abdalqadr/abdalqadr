@@ -1,9 +1,9 @@
 from telethon import events
-import phoenix.client
-from phoenix.magic import Magic
+import A.client
+from A.magic import Magic
 import time
 magic = Magic()
-client = phoenix.client.client
+client = A.client.client
 @events.register(events.NewMessage)
 async def magicrun(event):
 		if '.سحر' in event.raw_text:
