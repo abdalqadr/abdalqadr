@@ -2,8 +2,8 @@ from telethon import events
 from time import sleep
 import asyncio
 from telethon import events
-import phoenix.client
-client = phoenix.client.client
+import A.client
+client = A.client.client
 @events.register(events.NewMessage(outgoing=True, pattern=".مؤقت"))
 async def timer(event):
         msg=event.message.raw_text.split()
