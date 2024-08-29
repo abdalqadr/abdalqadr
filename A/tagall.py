@@ -1,7 +1,7 @@
 from telethon import events
-import phoenix.client
+import A.client
 import time
-client = phoenix.client.client
+client = A.client.client
 
 @events.register(events.NewMessage(pattern=".تاك"))
 async def tagall(event):
