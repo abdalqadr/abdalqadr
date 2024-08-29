@@ -1,5 +1,5 @@
 from telethon import events
-import phoenix.client
+import A.client
 import time
 client = A.client.client
 
