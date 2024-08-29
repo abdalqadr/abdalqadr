@@ -1,6 +1,6 @@
 from telethon import events
-import phoenix.client
-client = phoenix.client
+import A.client
+client = A.client
 import random
 
 gn = ["""
