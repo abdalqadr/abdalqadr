@@ -2,8 +2,8 @@ async def jio(event):
 import asyncio
 from collections import deque
 from telethon import events
-import phoenix.client
-client = phoenix.client.client
+import A.client
+client = A.client.client
 
 @events.register(events.NewMessage(pattern=r".فراشة", outgoing=True))
 async def star(event):
