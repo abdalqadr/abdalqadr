@@ -1,9 +1,9 @@
 from telethon import events
 from gtts import gTTS
-import phoenix.client
+import A.client
 from os import remove
 
-client = phoenix.client.client
+client = A.client.client
 
 @events.register(events.NewMessage(outgoing=True, pattern=r'\.صوت'))
 async def runj(event):
