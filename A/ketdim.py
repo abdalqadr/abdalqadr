@@ -1,7 +1,7 @@
 from telethon import events
 import time
-import phoenix.client
-client = phoenix.client.client
+import A.client
+client = A.client.client
 
 
 ketdi = ["░░░░░░🚜░░░░░░🏠\n█████████████████",
