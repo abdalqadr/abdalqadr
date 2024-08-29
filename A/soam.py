@@ -6,7 +6,7 @@ from asyncio import sleep
 from telethon.sync import TelegramClient
 from telethon import events
 from telethon.events import NewMessage
-from phoenix import client
+from A import client
 import re
 
 
