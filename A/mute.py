@@ -2,8 +2,8 @@ from telethon import events
 from telethon.tl.functions.channels import EditBannedRequest
 from telethon.tl.types import ChatBannedRights
 import datetime
-import phoenix.client
-client = phoenix.client.client
+import A.client
+client = A.client.client
 
 @events.register(events.NewMessage(pattern=r'.كتم', outgoing=True))
 async def mute(event: events.NewMessage.Event):
