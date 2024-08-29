@@ -1,9 +1,9 @@
 from telethon import events
-import phoenix.client
+import A.client
 from telethon.tl.functions.users import GetFullUserRequest
 from os import remove
 
-client = phoenix.client.client
+client = A.client.client
 
 @events.register(events.NewMessage(outgoing=True, pattern=r'\.ايدي'))
 async def userinfo(event):
