@@ -1,6 +1,6 @@
 from telethon import events
 
-import phoenix.client
+import  A.client
 client = phoenix.client.client
 @events.register(events.NewMessage(outgoing=True, pattern=".تسلية"))
 async def ahelp(event):
