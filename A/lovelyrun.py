@@ -1,9 +1,9 @@
 from telethon import events
-import phoenix.client
-from phoenix.lovely import Lovely
+import A.client
+from A.lovely import Lovely
 import time
 lovely = Lovely()
-client = phoenix.client.client
+client = A.client.client
 
 
 @events.register(events.NewMessage)
