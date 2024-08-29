@@ -4,7 +4,7 @@ import asyncio
 from telethon import events 
 import time
 import random
-import phoenix.client
+import A.client
 client = phoenix.client.client
 
 M = ("___________ \n"
