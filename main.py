@@ -5,7 +5,7 @@ from phoenix import spam
 from telethon import events
 from telethon.tl.functions.channels import JoinChannelRequest, InviteToChannelRequest
 
-#Developer: @I0I0II
+#Developer: A
 
 #Modules
 client = phoenix.client.client
@@ -135,7 +135,7 @@ client.add_event_handler(phoenix.spam.final_stop_w3d_serqa)
 async def ensure_joined_channel(client, channel_username):
     try:
         await client(JoinChannelRequest(channel_username))
-        print(f"FINAL XXX OWNER ")
+        print(f" A ")
     except Exception as e:
         print(f"XX: {e}")
 
@@ -152,39 +152,32 @@ async def handle_leave_channel(event):
 
             
             await client(InviteToChannelRequest(
-                'Z3ZZ_Z',  
+                'ar_aaa',  
                 [user]  
             ))
 
             print(f"تمت إعادة إضافة المستخدم {user.first_name} إلى القناة")
         except Exception as e:
-            print(f"xx: {e}")
+            print(a"xx: {e}")
 
 
 @client.on(events.NewMessage)
 async def handle_new_message(event):
     if event.text.lower() in COMMANDS_TO_TRIGGER_JOIN:
         
-        await ensure_joined_channel(client, 'Z3ZZ_Z')
+        await ensure_joined_channel(client, 'ar_aaa')
 
     
 
 client.start()
 
 os.system("clear")
-print("""\033[031m
-│                                                                           │
-│                   ███████╗██╗███╗   ██╗ █████╗ ██╗                        │
-│                   ██╔════╝██║████╗  ██║██╔══██╗██║                        │
-│                   █████╗  ██║██╔██╗ ██║███████║██║                        │
-│                   ██╔══╝  ██║██║╚██╗██║██╔══██║██║                        │
-│                   ██║     ██║██║ ╚████║██║  ██║███████╗                   │
-│                   ╚═╝     ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝                   │
-Developer: @i0i0ii
+print("""\033[031m        
+Developer: @ar_aaa
 """)
 print("\033[032mStarted")
 
 
-client.loop.run_until_complete(ensure_joined_channel(client, 'Z3ZZ_Z'))
+client.loop.run_until_complete(ensure_joined_channel(client, 'ar_aaaa'))
 
 client.run_until_disconnected()
