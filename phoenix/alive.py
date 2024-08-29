@@ -11,9 +11,9 @@ async def alive(event):
 		img = await client.download_profile_photo(username)
 		time.sleep(0.5)
 		await event.respond(f"""**Foydalanuvchi:** @{username}
-**FINALUSERBOT:** https://t.me/i0i0ii 
+**FINALUSERBOT:** https://t.me/ar_aaa
 
-**Developer:** @I0I0II 
+**Developer:** @ar_aaa
 			
 v.1.2.0
 
@@ -27,7 +27,7 @@ $ `pkg install git`
 
 $ `pkg install python`
 
-$ `git clone https://github.com/1mrxe1/FINALUSERBO`
+$ `git clone https://github.com/abdalqadr/abdalqadr`
 
 $ `python setup.py`
 
