@@ -4,20 +4,13 @@ from telethon.errors import SessionPasswordNeededError
 import os
 import pickle
 
-api_id = 29914850
-api_hash = "de7b0ee6f49fff7b4a5f0e5c015972ce"
+api_id = 829746
+api_hash = "98483e947d2d31c28605e52d368b445f"
 
 os.system("clear")
 print("""\033[031m
 
-                    ███████╗██╗███╗   ██╗ █████╗ ██╗
-                    ██╔════╝██║████╗  ██║██╔══██╗██║
-                    █████╗  ██║██╔██╗ ██║███████║██║
-                    ██╔══╝  ██║██║╚██╗██║██╔══██║██║
-                    ██║     ██║██║ ╚████║██║  ██║███████╗
-                    ╚═╝     ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝
-
-Developer: @I0I0II
+Developer: @ar_aaa
 
 """)
 
@@ -30,7 +23,7 @@ except FileNotFoundError:
     string = input("Press enter: ")
     client = TelegramClient(StringSession(string), api_id, api_hash)
 
-finally: # الحمدلله دائما وابدا
+finally: # 
     phone_number = input("\033[032mPlease enter your phone (or bot token): ")
     client.connect()
 
