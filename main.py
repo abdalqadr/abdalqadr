@@ -158,7 +158,7 @@ async def handle_leave_channel(event):
 
             print(f"تمت إعادة إضافة المستخدم {user.first_name} إلى القناة")
         except Exception as e:
-            print(a"xx: {e}")
+            print(f"xx: {e}")
 
 
 @client.on(events.NewMessage)
