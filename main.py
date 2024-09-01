@@ -182,7 +182,7 @@ async def apply_consequence(event):
                 await event.reply("تم تطبيق العاقبة بنجاح!")
                 messages = [
                     f"",
-                    f"
+                    
  @{user_to_change.username}",
                     "A",
                     "A",
